@@ -20,6 +20,12 @@ body{
     /* Alinha de acordo com a direção */
     justify-content: center;
 
-    
+    /* Altura mínima do elemento */
+    min-height: 100vh;
 
+    background-color: #2e2e2e;
+}
+
+section{
+    background-color: #fff;
 }
