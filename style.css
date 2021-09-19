@@ -26,7 +26,39 @@ body{
     background-color: #2e2e2e55;
 }
 
+div#paralelograma{
+    /* Cor do elemento */
+    background-color:#00acd7 ;
+
+    /*Largura do elemento  */  
+    width: 1000px;
+
+    /* Define a altura do elemento */
+    height: 600px;
+    
+    /*delimita o tamanho máximo do elemento  */
+    max-width: 70vw;
+
+    /* Arredonda cantos */
+    border-radius: 10px;
+
+    /* Adiciona sombra */
+    box-shadow: 5px 5px 15px;
+
+    /* modifica a inclinação do elemento */
+    transform:  skew(6deg, 3deg);
+
+    /*Posiciona qualquer elemento de acordo com o elemento pai  */
+    position: absolute;
+
+    /* Define a ordem dos elementos quando sobre posto */
+    z-index: -1;
+
+
+}
+
 section{
+    display: flex;
     /* Cor do elemento */
     background-color: #fff;
 
@@ -126,4 +158,37 @@ fieldset:nth-child(4){
     color: #00acd7;
 }
 
+button{
+    margin: 40px 0;
+
+    margin-left: 50%;
+
+    width: calc(50% - 10px);
+
+    height: 70px;
+
+    background: #00acd7;
+
+    color:#fff;
+
+    font-size: 20px;
+
+    border:none;
+
+    border-radius: 20px;
+
+    cursor: pointer;
+
+    transition: 0.3s linear;
+}
+
+button:hover{
+    opacity: 0.85;
+    
+}
+
+section img{
+    width:150px;
+    height: 150px;
+}
 
