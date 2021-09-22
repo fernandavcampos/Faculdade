@@ -18,13 +18,15 @@
                 <!-- Container utilizável para css -->
                 <div class="container">                   
                    <!-- inserir um input para o nome da pessoa -->
-                   
+                      <label for="nome">Nome:</label>
+            <input type="text" name="nome" />
 
                    <label>Nome</label>
                 </div>
                 <div class="container">                   
-                   <!-- inserir um input para a data de nascimento -->
-                   
+                   <!-- inserir um input para a data de nascimento -->          
+                    <label for="nasc">Nascimento:</label>
+            <input type="number" name="nasc" />
 
                    <label>Data de Nascimento</label>
                 </div>
@@ -39,10 +41,19 @@
                 </div>
                 <div class="container">                  
                    <!-- inserir um input para a data de nascimento -->
-                   
+                    <label for="peso">Peso:</label>
+            <input type="text" name="peso" />                             
 
                    <label>Altura</label>
                 </div>
+                 <label for="altura">Altura:</label>
+            <input type="text" name="altura" /
+                   >
+                <label for="imc">IMC:</label>
+            <input type="text" name="imc" disabled="disabled">
+
+            <a href="#" onclick="calcularIMC() ;">Calcular</a>
+
             </fieldset>
             <fieldset>
                <button>Salvar Dados</button>
