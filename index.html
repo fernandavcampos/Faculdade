@@ -18,15 +18,15 @@
                 <!-- Container utilizável para css -->
                 <div class="container">                   
                    <!-- inserir um input para o nome da pessoa -->
-                      <label for="nome">Nome:</label>
-            <input type="text" name="nome" />
+                   <input type="text" required name="nome">
+                  
 
                    <label>Nome</label>
                 </div>
                 <div class="container">                   
-                   <!-- inserir um input para a data de nascimento -->          
-                    <label for="nasc">Nascimento:</label>
-            <input type="number" name="nasc" />
+                   <!-- inserir um input para a data de nascimento -->
+                   <!-- <input type="text" required name="a"> -->
+                   <input type="number" required name="nasc" />
 
                    <label>Data de Nascimento</label>
                 </div>
@@ -35,31 +35,22 @@
                 <!-- Container utilizável para css -->
                 <div class="container">                   
                    <!-- inserir um input para o nome da pessoa -->
-                   
+                   <input type="text" required name="b">
 
                    <label>Peso</label>
                 </div>
                 <div class="container">                  
                    <!-- inserir um input para a data de nascimento -->
-                    <label for="peso">Peso:</label>
-            <input type="text" name="peso" />                             
+                   <input type="text" required name="c">
 
                    <label>Altura</label>
                 </div>
-                 <label for="altura">Altura:</label>
-            <input type="text" name="altura" /
-                   >
-                <label for="imc">IMC:</label>
-            <input type="text" name="imc" disabled="disabled">
-
-            <a href="#" onclick="calcularIMC() ;">Calcular</a>
-
             </fieldset>
             <fieldset>
                <button>Salvar Dados</button>
             </fieldset>
         </form>
-        <img src="image/users.png"
+        <img src="image/users.png"/>
     </section>
 </body>
 </html>
